@@ -25,7 +25,7 @@ export default {
     </header>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 ul {
     list-style-type: none;
     display: flex;
@@ -44,17 +44,17 @@ ul {
     width: 50px;
     border: 3px solid white;
     border-radius: 50%;
-}
 
-.red {
-    background-image: linear-gradient(to bottom right, white, red);
-}
+    &.red {
+        background-image: linear-gradient(to bottom right, white, red);
+    }
 
-.yellow {
-    background-image: linear-gradient(to bottom right, white, yellow);
-}
+    &.yellow {
+        background-image: linear-gradient(to bottom right, white, yellow);
+    }
 
-.green {
-    background-image: linear-gradient(to bottom right, white, green);
+    &.green {
+        background-image: linear-gradient(to bottom right, white, green);
+    }
 }
 </style>

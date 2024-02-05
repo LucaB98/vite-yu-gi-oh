@@ -2,5 +2,6 @@
 
 body {
     font-family: $main-font;
-    background-color: #b71b1b;
+    background-image: linear-gradient(to bottom right, white, red 30%);
+    height: 100vh;
 }

@@ -26,7 +26,7 @@ export default {
 }
 
 .row {
-
-    background-image: linear-gradient(to bottom right, #62666B 70%, white);
+    border: 5px solid rgb(85, 85, 85);
+    background-image: linear-gradient(to bottom right, #62666B 90%, white);
 }
 </style>

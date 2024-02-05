@@ -6,7 +6,7 @@ export default {
 
 <template>
     <header>
-        <div class="container">
+        <div class="container d-flex justify-content-between">
             <ul class="my-3">
                 <li>
                     <div class="blue m-2"></div>
@@ -21,6 +21,9 @@ export default {
                     <div class="cube-small green m-2"></div>
                 </li>
             </ul>
+            <div>
+                <img src="../assets/img/logo-2.png" alt="" class="img-fluid logo">
+            </div>
         </div>
     </header>
 </template>
@@ -56,5 +59,9 @@ ul {
     &.green {
         background-image: linear-gradient(to bottom right, white, green);
     }
+}
+
+.logo {
+    height: 150px;
 }
 </style>

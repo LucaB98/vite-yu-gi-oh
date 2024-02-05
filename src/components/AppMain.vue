@@ -7,9 +7,16 @@ export default {
 </script>
 
 <template>
-    <main class="container">
+    <main id="main" class="container d-flex justify-content-center align-items-center">
         <DocsList />
     </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+#main {
+    background-color: #DEDEDE;
+    border-radius: 25px;
+    height: 80vh;
+
+}
+</style>

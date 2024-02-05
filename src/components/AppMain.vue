@@ -1,14 +1,14 @@
 <script>
-import CardList from './CardList.vue'
+import DocsList from './DocsList.vue'
 export default {
     name: 'AppMain',
-    components: { CardList }
+    components: { DocsList }
 };
 </script>
 
 <template>
     <main class="container">
-        <CardList />
+        <DocsList />
     </main>
 </template>
 

@@ -1,12 +1,14 @@
 <script>
+import SelectType from './SelectType.vue';
 export default {
     name: 'AppHeader',
+    components: { SelectType }
 };
 </script>
 
 <template>
     <header>
-        <div class="container d-flex justify-content-between">
+        <div class="container d-flex justify-content-between align-items-center">
             <ul class="my-3">
                 <li>
                     <div class="blue m-2"></div>
@@ -21,6 +23,7 @@ export default {
                     <div class="cube-small green m-2"></div>
                 </li>
             </ul>
+            <SelectType />
             <div>
                 <img src="../assets/img/logo-2.png" alt="" class="img-fluid logo">
             </div>
